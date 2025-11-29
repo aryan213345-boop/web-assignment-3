@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JS -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">My Portfolio</div>
+
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="intro">Hi, I am</p>
+                <h1 class="hero-title">
+                    <span class="role-change">Full Stack Developer</span>
+                </h1>
+                <p class="hero-subtitle">
+                    I build modern web applications with clean, responsive designs.
+                </p>
+                <a href="#projects" class="btn-primary">View My Work</a>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <div class="hero-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-text">
+                I am a web development student currently learning HTML, CSS, JavaScript and modern
+                front-end techniques. This portfolio website is part of my lab assignment to practice
+                Flexbox, Grid, media queries, animations, and responsive design.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="grid skills-grid">
+                <article class="card">
+                    <h3>HTML</h3>
+                    <p>Semantic markup and structured page layouts.</p>
+                </article>
+
+                <article class="card">
+                    <h3>CSS</h3>
+                    <p>Flexbox, Grid, responsive design, and animations.</p>
+                </article>
+
+                <article class="card">
+                    <h3>JavaScript</h3>
+                    <p>Basic interactivity, DOM manipulation, and events.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and project collaboration.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="grid projects-grid">
+                <article class="card project-card">
+                    <h3>Project 1</h3>
+                    <p>A simple one-page responsive website using HTML and CSS.</p>
+                </article>
+
+                <article class="card project-card">
+                    <h3>Project 2</h3>
+                    <p>Interactive web page with JavaScript based form validation.</p>
+                </article>
+
+                <article class="card project-card">
+                    <h3>Project 3</h3>
+                    <p>Basic portfolio layout using Flexbox and CSS Grid.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Write your message"></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>© 2025 Your Name. All rights reserved.</p>
+            <button id="backToTop" class="back-to-top">Back to Top ↑</button>
+        </div>
+    </footer>
+
+</body>
+</html>
